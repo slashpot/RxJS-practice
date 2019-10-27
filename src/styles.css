@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  background-color: tomato;
+  position: relative;
+}
+
+#drag {
+  position: absolute;
+  transform-origin: center;
+  display: inline-block;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  cursor: all-scroll;
+  transform: translate(-50%, -50%);
+}
